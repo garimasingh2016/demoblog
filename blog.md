@@ -1,13 +1,13 @@
 ﻿# Creating a demo using MAX Question Answering Model
 #### Garima Singh
 ![Me at Disney World, Magic Kindom for IBM's intern finale event](garima-disney.jpg)
-For summer 2019, I was an intern with the Center for Open Source Data and AI Technologies (CODAIT) and chose to build a Question Answering model to go on the Model Asset eXchange (MAX), a collection of open source models that are easy to deply and use in an application. When I came in at the beginning of the summer, the team was looking to add more models to MAX. One of these proposed models was a model that solved the NLP task called Question Answering. Along with this model, the team wanted a demo that would show off its capabilities. This was my project for the summer.
+For summer 2019, I was an intern with the Center for Open Source Data and AI Technologies ([CODAIT](http://codait.org)) and chose to build a Question Answering model to go on the [Model Asset eXchange (MAX)](https://developer.ibm.com/exchanges/models/), a collection of deep learning open source models that are easy to train and deploy and use in an application. When I came in at the beginning of the summer, the team was looking to add more models to MAX. One of these proposed models was a model that solved the NLP task called Question Answering. Along with this model, the team wanted a demo that would show off its capabilities. This was my project for the summer.
 
 
 # Question Answering
 > What is question answering?
 
-Question Answering (QA) is a deep learning task that falls under Natural Language Processing. Give a person a passage of text and they can accurately answer most questions about that text (yes, they are allowed to refer to the text to find the answer; this isn't a standardized test). A deep learning model should be able to do the same.
+Question Answering (QA) is a deep learning task that falls under Natural Language Processing (NLP). Give a person a passage of text and they can accurately answer most questions about that text (yes, they are allowed to refer to the text to find the answer; this isn't a standardized test). A deep learning model should be able to do the same.
 ### Example
 | Text | Question | Answer  | 
 | ------------- | --------  | -------- | 
@@ -15,7 +15,7 @@ Question Answering (QA) is a deep learning task that falls under Natural Languag
 
 # The MAX Model
 
-The MAX QA is finetuned from an open-source pretrained model called BERT developed by Google AI Research. At the time, BERT was the best performing model on QA research leaderboards. It will probably be surpassed as research in the field continues to advance and the CODAIT team will continue to update this model to keep it performing at state-of-the-art accuracy.
+The MAX QA is finetuned from an open-source pretrained model called [BERT](https://arxiv.org/abs/1810.04805) developed by Google AI Research. At the time, BERT was the best performing model on QA research leaderboards. It will probably be surpassed as research in the field continues to advance and the CODAIT team will continue to update this model to keep it performing at state-of-the-art accuracy.
 
 As always, taking on this project came with a fair amount of technical challenges. The first challenge, as is the case for most intern projects, was figuring out what was going on in the first place. I spent a couple weeks diving into the world of Flask, Docker, HTTP requests, and IBM Cloud Object Storage and things were starting to make sense.
 
