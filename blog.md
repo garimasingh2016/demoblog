@@ -39,7 +39,7 @@ One of the biggest challenges in completing this task was the time crunch. I was
 
 Another big challenge was that I was working in unfamiliar territory. I had done some web development before, but mostly on the front end. I had also never built a Flask app before. I had a proof-of-concept as a command line application. Taking the Python script I had for that and working through the logic of splitting up the backend and front end was quite challenging. My notepad began to look a little crazy with diagrams and flowcharts everywhere! 
 
-![pic of notepad](notepad.PNG)
+![pic of notepad](desk.png)
 
 It all came together in the end with a couple successful live demos! Check out the web app repository to see it in action!
 
